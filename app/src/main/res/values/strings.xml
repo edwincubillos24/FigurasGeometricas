@@ -7,4 +7,9 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="LadoA">Lado A</string>
+    <string name="LadoB">Lado B</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="texto">Calcular el perimetro de un rectangulo de lados a, b:</string>
 </resources>
