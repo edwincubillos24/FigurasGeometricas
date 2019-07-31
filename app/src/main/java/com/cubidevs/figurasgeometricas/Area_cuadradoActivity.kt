@@ -20,7 +20,7 @@ class Area_cuadradoActivity : AppCompatActivity() {
             if(!lado.equals("")){
                 valor_lado = lado.toDouble()
                 valor_final = valor_lado * valor_lado
-                tvResultado.text ="El area es: " + valor_final.toString()
+                tvResultado.text ="El area es: " + valor_final.toString() + " cm"
             }
             else{
                 Toast.makeText(this, "Ingrese el valor del Lado", Toast.LENGTH_SHORT).show()
