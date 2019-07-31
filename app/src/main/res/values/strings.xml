@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Figuras Geometricas</string>
+    <string name="triangulo">Triángulo</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="rectangulo">Rectángulo</string>
+    <string name="circulo">Círculo</string>
+    <string name="rombo">Rombo</string>
+    <string name="pentagono">Pentágono</string>
+    <string name="hexagono">Hexágono</string>
+</resources>
