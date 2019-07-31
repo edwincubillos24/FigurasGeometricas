@@ -7,4 +7,9 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="areatrian">Calcule el area de un triángulo</string>
+    <string name="ingrese_la_base">Ingrese la base</string>
+    <string name="ingrese_la_altura">ingrese la altura</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">resultado</string>
 </resources>
