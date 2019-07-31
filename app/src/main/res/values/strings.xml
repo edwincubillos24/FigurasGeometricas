@@ -7,6 +7,10 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="lado_cuadrado">Ingrese el lado de su cuadrado en centimetros:</string>
+    <string name="hint_lado_cuadrado">Ingrese el lado</string>
+    <string name="calcular_perimetro">Calcular Perímetro</string>
+    <string name="diametro">DiametroCuadrado</string>
     <string name="area">Area</string>
     <string name="perimetro">Perimetro</string>
     <string name="seleccion">Selección</string>

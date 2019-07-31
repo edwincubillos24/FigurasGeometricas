@@ -12,6 +12,9 @@
         <activity android:name=".SelAreaPerActivity"
                   android:label="@string/seleccion">
         </activity>
+        <activity android:name=".DiametroCuadradoActivity"
+                  android:label="@string/diametro">
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
