@@ -24,14 +24,19 @@ class PerRectanguloActivity : AppCompatActivity() {
         val tvresultado= findViewById<TextView>(R.id.tvresultado)
         val btcalcular = findViewById<Button>(R.id.btcalcular)
 
-        btcalcular.setOnClickListener{
+        btcalcular.setOnClickListener {
             ladoa = etladoa.text.toString()
             ladob = etladob.text.toString()
 
+            if ((ladoa == "") || (ladob == "")){
+                tvresultado.text="No se ingresaron datos"
 
-            resultado= ladoa.toDouble()+ladoa.toDouble()+ladob.toDouble()+ladob.toDouble()
+            }
+            else{
+            resultado = ladoa.toDouble() + ladoa.toDouble() + ladob.toDouble() + ladob.toDouble()
 
-            tvresultado.text=resultado.toString()
+            tvresultado.text = resultado.toString()
+            }
         }
     }
 

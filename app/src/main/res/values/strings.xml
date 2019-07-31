@@ -12,4 +12,5 @@
     <string name="calcular">Calcular</string>
     <string name="resultado">Resultado</string>
     <string name="texto">Calcular el perimetro de un rectangulo de lados a, b:</string>
+    <string name="PerimetroRectangulo">Perimetro Rectangulo</string>
 </resources>
