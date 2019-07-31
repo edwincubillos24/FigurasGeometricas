@@ -7,4 +7,8 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="PerPenIngrese">Ingrese la longitud</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="tvResultado">Resultado</string>
+    <string name="PerimetroPentagono">PerimetroPoligono</string>
 </resources>
