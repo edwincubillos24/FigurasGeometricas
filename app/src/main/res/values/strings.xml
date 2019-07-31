@@ -7,4 +7,7 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="area">Area</string>
+    <string name="perimetro">Perimetro</string>
+    <string name="seleccion">Selección</string>
 </resources>
