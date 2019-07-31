@@ -7,4 +7,8 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="titulo">Area del cuadrado</string>
+    <string name="ingresevalor">Ingrese el valor del LADO del cuadrado</string>
+    <string name="calcular">Calcular</string>
+    <string name="areacuadrado">Area Cuadrado</string>
 </resources>
