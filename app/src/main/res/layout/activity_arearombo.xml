@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".arearomboActivity"
+        android:orientation="vertical">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvd1"
+              android:text="Area del rombo"
+              android:gravity="center_horizontal"
+              android:textStyle="bold"
+    />
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                    android:id="@+id/tvd1"
+                    android:text="Ingrese la diagonal1 de su rombo"
+                    android:textStyle="bold"
+                    />
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                    android:id="@+id/etd1"
+                    android:hint="d1 de rombo"
+                    android:inputType="number"
+                    />
+         <TextView android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvd2"
+                    android:text="Ingrese la diagonal2 de su rombo"
+                   android:textStyle="bold"/>
+        <EditText android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/etd2"
+                    android:hint="d2 de rombo"
+                  android:inputType="number"/>
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btcalcular"
+                android:text="Calcular"
+                android:layout_gravity="center_horizontal"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Area del rombo"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/tvresultado"
+              />
+
+
+
+
+    </LinearLayout>
+
+
