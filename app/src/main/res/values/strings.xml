@@ -7,4 +7,8 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="area_circulo">Area del circulo</string>
+    <string name="radio">Radio:</string>
+    <string name="ingrese_el_radio">Ingrese el radio</string>
+    <string name="calcular">Calcular</string>
 </resources>
