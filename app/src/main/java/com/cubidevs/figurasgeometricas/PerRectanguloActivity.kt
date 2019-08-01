@@ -29,7 +29,7 @@ class PerRectanguloActivity : AppCompatActivity() {
             ladob = etladob.text.toString()
 
             if ((ladoa == "") || (ladob == "")){
-                tvresultado.text="No se ingresaron datos"
+                tvresultado.text="No se ingresaron datos "
 
             }
             else{
