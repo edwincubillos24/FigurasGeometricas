@@ -7,4 +7,9 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="width">Ancho: </string>
+    <string name="large">Largo: </string>
+    <string name="dimen">Dimensiones</string>
+    <string name="area">Area</string>
+
 </resources>
