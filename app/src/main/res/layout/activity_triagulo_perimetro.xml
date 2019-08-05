@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        tools:context=".TriaguloPerimetroActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D32F2F"
+            android:text="@string/tria_per"
+            android:id="@+id/tv_titulo_tri_per"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lado1tp"
+            android:id="@+id/tv_lado1tp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="1.0"
+            android:textSize="30sp"
+            android:id="@+id/et_lado1tp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lado2tp"
+            android:id="@+id/tv_lado2tp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="1.0"
+            android:textSize="30sp"
+            android:id="@+id/et_lado2tp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lado3tp"
+            android:id="@+id/tv_lado3tp"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="1.0"
+            android:textSize="30sp"
+            android:id="@+id/et_lado3tp"/>
+
+    <Button
+            android:text="@string/calculartriper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_tria_per"
+            android:textSize="20sp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF5722"
+
+            android:id="@+id/tv_resul_tri_per"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+
+</LinearLayout>
+
