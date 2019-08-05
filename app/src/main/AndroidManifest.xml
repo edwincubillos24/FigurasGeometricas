@@ -9,6 +9,11 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".arearomboActivity"
+
+            android:label="@string/arearombo">
+
+        </activity>
         <activity android:name=".SelAreaPerActivity"
                   android:label="@string/seleccion">
         </activity>
@@ -27,6 +32,7 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
         </activity>
     </application>
 
