@@ -16,6 +16,7 @@ class AreaCirculoActivity : AppCompatActivity() {
             var resultado = pi*radio_nuevo*radio_nuevo
 
             tvResultado.text = "El area del circulo es: "+resultado.toString() + " cm^2"
+            
         }
 
 
