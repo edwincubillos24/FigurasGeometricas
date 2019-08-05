@@ -6,27 +6,46 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:padding="30dp"
         tools:context=".setcircleperimeterActivity">
 
     <TextView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/tvtitle"/>
+            android:text="@string/tvtitle"
+            android:textSize="30dp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:layout_gravity="center_horizontal"/>
     <TextView
+            android:layout_marginTop="30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/radio"
-            android:padding="20dp"/>
+            android:padding="20dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center_horizontal"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/inputradio"/>
+            android:id="@+id/inputradio"
+            android:textColor="@color/black"
+            android:inputType="numberDecimal"/>
     <Button android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/bperimeter"
-            android:padding="20dp"/>
+            android:padding="20dp"
+            android:text="Perimeter"
+            android:gravity="center_horizontal"/>
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/resulperimeter"/>
+            android:id="@+id/resulperimeter"
+            android:textSize="30dp"
+            android:gravity="center_horizontal"/>
 </LinearLayout>
