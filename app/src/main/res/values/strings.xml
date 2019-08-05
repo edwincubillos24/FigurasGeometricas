@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Figuras Geometricas</string>
     <string name="triangulo">Triángulo</string>
     <string name="cuadrado">Cuadrado</string>
@@ -7,10 +7,15 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="LadoA">Lado A</string>
+    <string name="LadoB">Lado B</string>
+    <string name="calcular">Calcular</string>
+    <string name="resultado">Resultado</string>
+    <string name="texto">Calcular el perimetro de un rectangulo de lados a, b:</string>
+    <string name="PerimetroRectangulo" tools:ignore="ExtraTranslation">Perimetro Rectangulo</string>
     <string name="perimetro_rombo">Perímetro del Rombo</string>
     <string name="bnCalcular">Calcular</string>
     <string name="perimRombo">perimRombo</string>
-    <string name="arearombo">arearombo</string>
     <string name="radio">Input radio</string>
     <string name="tvtitle">Circle Circumference</string>
     <string name="section">Perimeter Circle</string>
@@ -29,10 +34,13 @@
     <string name="perimetrotrian">Perimetro Triangulo</string>
     <string name="titulo">Area del cuadrado</string>
     <string name="ingresevalor">Ingrese el valor del LADO del cuadrado (cm)</string>
-    <string name="calcular">Calcular</string>
     <string name="areacuadrado">Area Cuadrado</string>
     <string name="PerPenIngrese">Ingrese la longitud</string>
     <string name="btnCalcular">Calcular</string>
     <string name="tvResultado">Resultado</string>
     <string name="PerimetroPentagono">PerimetroPoligono</string>
+    <string name="calcular_area_de_un_triangulo">calcular area de un triangulo</string>
+    <string name="ingrese_la_base">ingrese la base</string>
+    <string name="ingrese_la_altura">ingrese la altura</string>
+    <string name="arearombo">Area Rombo</string>
 </resources>
