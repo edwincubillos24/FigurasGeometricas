@@ -10,16 +10,27 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity android:name=".perRomboActivity"
-                  android:label="@string/perimRombo">
+                  android:label="@string/perimRombo"/>
+        <activity android:name=".SelAreaPerActivity"
+                  android:label="@string/seleccion">
+        </activity>
+        <activity android:name=".setcircleperimeterActivity"
+                  android:label="@string/section">
+        </activity>
+        <activity android:name=".DiametroCuadradoActivity"
+                  android:label="@string/diametro">
+        </activity>
+        <activity android:name=".TriaguloPerimetroActivity" android:label="@string/perimetrotrian">
+
+        </activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
 
-        </activity>
     </application>
 
 </manifest>
