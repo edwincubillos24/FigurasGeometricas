@@ -36,9 +36,11 @@ class PerRectanguloActivity : AppCompatActivity() {
             resultado = ladoa.toDouble() + ladoa.toDouble() + ladob.toDouble() + ladob.toDouble()
 
             tvresultado.text = resultado.toString()
+
             }
         }
     }
 
 
 }
+
