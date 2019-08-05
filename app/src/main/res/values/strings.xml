@@ -7,4 +7,7 @@
     <string name="rombo">Rombo</string>
     <string name="pentagono">Pentágono</string>
     <string name="hexagono">Hexágono</string>
+    <string name="perimetro_rombo">Perímetro del Rombo</string>
+    <string name="bnCalcular">Calcular</string>
+    <string name="perimRombo">perimRombo</string>
 </resources>
