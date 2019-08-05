@@ -29,4 +29,7 @@
     <string name="lado3tp">Lado 3</string>
     <string name="calculartriper">Calcular</string>
     <string name="perimetrotrian">Perimetro Triangulo</string>
+    <string name="area_circulo">Area del circulo</string>
+    <string name="ingrese_el_radio">Ingrese el radio</string>
+    <string name="cm">cm</string>
 </resources>
