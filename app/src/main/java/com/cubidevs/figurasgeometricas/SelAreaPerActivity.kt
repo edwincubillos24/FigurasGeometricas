@@ -35,6 +35,8 @@ class SelAreaPerActivity : AppCompatActivity() {
                     }
                     4 -> {
 
+                        var intent = Intent(this,arearomboActivity::class.java)
+                        startActivity(intent)
                     }
                     5 -> {
 
@@ -51,6 +53,12 @@ class SelAreaPerActivity : AppCompatActivity() {
                     }
                     1 -> {
 
+                        var intent = Intent(this, TriaguloPerimetroActivity::class.java)
+                        startActivity(intent)
+                    }
+                    1 -> {
+                        var intent = Intent(this,DiametroCuadradoActivity::class.java)
+                        startActivity(intent)
                     }
                     2 -> {
 

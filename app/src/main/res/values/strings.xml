@@ -32,4 +32,25 @@
     <string name="calcule_el_area_de_un_triangulo">Calcule el area de un triangulo</string>
     <string name="ingrese_la_base">ingrese la base</string>
     <string name="ingrese_la_altura">ingrese la altura</string>
+    <string name="arearombo">arearombo</string>
+    <string name="radio">Input radio</string>
+    <string name="tvtitle">Circle Circumference</string>
+    <string name="section">Perimeter Circle</string>
+    <string name="lado_cuadrado">Ingrese el lado de su cuadrado en centimetros:</string>
+    <string name="hint_lado_cuadrado">Ingrese el lado</string>
+    <string name="calcular_perimetro">Calcular Perímetro</string>
+    <string name="diametro">DiametroCuadrado</string>
+    <string name="area">Area</string>
+    <string name="perimetro">Perimetro</string>
+    <string name="seleccion">Selección</string>
+    <string name="tria_per">Perímetro de un Triángulo</string>
+    <string name="lado1tp">Lado 1</string>
+    <string name="lado2tp">Lado 2</string>
+    <string name="lado3tp">Lado 3</string>
+    <string name="calculartriper">Calcular</string>
+    <string name="perimetrotrian">Perimetro Triangulo</string>
+    <string name="titulo">Area del cuadrado</string>
+    <string name="ingresevalor">Ingrese el valor del LADO del cuadrado (cm)</string>
+    <string name="calcular">Calcular</string>
+    <string name="areacuadrado">Area Cuadrado</string>
 </resources>
