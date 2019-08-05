@@ -24,6 +24,7 @@ class PerRectanguloActivity : AppCompatActivity() {
         val tvresultado= findViewById<TextView>(R.id.tvresultado)
         val btcalcular = findViewById<Button>(R.id.btcalcular)
 
+
         btcalcular.setOnClickListener {
             ladoa = etladoa.text.toString()
             ladob = etladob.text.toString()
