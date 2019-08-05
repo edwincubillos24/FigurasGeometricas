@@ -25,6 +25,7 @@ class PerPentaActivity : AppCompatActivity() {
             }else{
                 tvResult.text = ((num).toFloat()*5).toString()
 
+                
             }
         }
 
