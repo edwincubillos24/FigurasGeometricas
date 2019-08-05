@@ -24,4 +24,8 @@
     <string name="lado3tp">Lado 3</string>
     <string name="calculartriper">Calcular</string>
     <string name="perimetrotrian">Perimetro Triangulo</string>
+    <string name="titulo">Area del cuadrado</string>
+    <string name="ingresevalor">Ingrese el valor del LADO del cuadrado (cm)</string>
+    <string name="calcular">Calcular</string>
+    <string name="areacuadrado">Area Cuadrado</string>
 </resources>
