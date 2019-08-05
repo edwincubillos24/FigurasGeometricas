@@ -14,6 +14,12 @@
         <activity
                 android:name=".PerRectanguloActivity"
                 android:label="@string/PerimetroRectangulo">
+        <activity android:name=".perRomboActivity"
+                  android:label="@string/perimRombo"/>
+        <activity android:name=".arearomboActivity"
+
+            android:label="@string/arearombo">
+
         </activity>
         <activity
                 android:name=".SelAreaPerActivity"
@@ -26,6 +32,12 @@
         <activity
                 android:name=".DiametroCuadradoActivity"
                 android:label="@string/diametro">
+        <activity android:name=".DiametroCuadradoActivity"
+                  android:label="@string/diametro">
+        </activity>
+        <activity android:name=".PerPentaActivity"
+        android:label="@string/PerimetroPentagono">
+
         </activity>
         <activity
                 android:name=".TriaguloPerimetroActivity"
@@ -54,6 +66,7 @@
             </intent-filter>
 
         </activity>
+
     </application>
 
 </manifest>
