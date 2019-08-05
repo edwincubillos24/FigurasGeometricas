@@ -13,6 +13,7 @@ class AreaCirculoActivity : AppCompatActivity() {
 
             var radio_nuevo = etRadio.text.toString().toDouble()
             var pi = 3.1416
+            
             var resultado = pi*radio_nuevo*radio_nuevo
 
             tvResultado.text = "El area del circulo es: "+resultado.toString() + " cm^2"
