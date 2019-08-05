@@ -1,5 +1,6 @@
 package com.cubidevs.figurasgeometricas
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -59,7 +60,8 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     5 -> {
-
+                        var intent = Intent(this, PerPentaActivity::class.java)
+                        startActivity(intent)
                     }
                     6 -> {
 

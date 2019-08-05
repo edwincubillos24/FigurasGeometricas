@@ -24,6 +24,7 @@ class PerPentaActivity : AppCompatActivity() {
                 tvResult.text ="No se ingresaron datos"
             }else{
                 tvResult.text = ((num).toFloat()*5).toString()
+
             }
         }
 
