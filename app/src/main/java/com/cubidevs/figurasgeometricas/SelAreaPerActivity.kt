@@ -23,7 +23,8 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     1 -> {
-
+                        var intent = Intent(this, Area_cuadradoActivity::class.java)
+                        startActivity(intent)
                     }
                     2 -> {
 
@@ -35,7 +36,8 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     4 -> {
-
+                        var intent = Intent(this,arearomboActivity::class.java)
+                        startActivity(intent)
                     }
                     5 -> {
 
@@ -62,10 +64,12 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     4 -> {
-
+                        var intent = Intent(this,perRomboActivity::class.java)
+                        startActivity(intent)
                     }
                     5 -> {
-
+                        var intent = Intent(this, PerPentaActivity::class.java)
+                        startActivity(intent)
                     }
                     6 -> {
 

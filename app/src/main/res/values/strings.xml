@@ -13,6 +13,10 @@
     <string name="resultado">Resultado</string>
     <string name="texto">Calcular el perimetro de un rectangulo de lados a, b:</string>
     <string name="PerimetroRectangulo">Perimetro Rectangulo</string>
+    <string name="perimetro_rombo">Perímetro del Rombo</string>
+    <string name="bnCalcular">Calcular</string>
+    <string name="perimRombo">perimRombo</string>
+    <string name="arearombo">arearombo</string>
     <string name="radio">Input radio</string>
     <string name="tvtitle">Circle Circumference</string>
     <string name="section">Perimeter Circle</string>
@@ -29,4 +33,12 @@
     <string name="lado3tp">Lado 3</string>
     <string name="calculartriper">Calcular</string>
     <string name="perimetrotrian">Perimetro Triangulo</string>
+    <string name="titulo">Area del cuadrado</string>
+    <string name="ingresevalor">Ingrese el valor del LADO del cuadrado (cm)</string>
+    <string name="calcular">Calcular</string>
+    <string name="areacuadrado">Area Cuadrado</string>
+    <string name="PerPenIngrese">Ingrese la longitud</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="tvResultado">Resultado</string>
+    <string name="PerimetroPentagono">PerimetroPoligono</string>
 </resources>
