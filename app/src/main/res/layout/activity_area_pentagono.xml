@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".AreaPentagonoActivity">
+    <Button
+            android:text="@string/Calcular"
+            android:layout_width="319dp"
+            android:layout_height="53dp"
+            android:id="@+id/btCalcular"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintHorizontal_bias="0.526"
+            android:layout_marginTop="48dp" app:layout_constraintTop_toBottomOf="@+id/etApotema"/>
+    <EditText
+            android:layout_width="314dp"
+            android:layout_height="54dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etLado"
+            android:hint="@string/Ingrese"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="48dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"/>
+    <EditText
+            android:layout_width="316dp"
+            android:layout_height="57dp"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/etApotema"
+            android:hint="@string/IngreseA"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="48dp"
+            app:layout_constraintTop_toBottomOf="@+id/etLado"
+            app:layout_constraintHorizontal_bias="0.506"/>
+
+    <TextView
+            android:layout_width="315dp"
+            android:layout_height="42dp"
+            android:id="@+id/tvResultado"
+            android:hint="@string/Area"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/btCalcular"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"
+            app:layout_constraintVertical_bias="0.15"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
