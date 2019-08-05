@@ -58,7 +58,8 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     3 -> {
-
+                        var intent = Intent(this,setcircleperimeterActivity::class.java)
+                        startActivity(intent)
                     }
                     4 -> {
                         var intent = Intent(this,perRomboActivity::class.java)
