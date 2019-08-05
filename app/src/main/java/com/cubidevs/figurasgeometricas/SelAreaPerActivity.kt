@@ -1,5 +1,6 @@
 package com.cubidevs.figurasgeometricas
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -22,7 +23,8 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     1 -> {
-
+                        var intent = Intent(this, Area_cuadradoActivity::class.java)
+                        startActivity(intent)
                     }
                     2 -> {
 
@@ -31,7 +33,8 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     4 -> {
-
+                        var intent = Intent(this,arearomboActivity::class.java)
+                        startActivity(intent)
                     }
                     5 -> {
 
@@ -44,10 +47,12 @@ class SelAreaPerActivity : AppCompatActivity() {
             if (view.getId()==R.id.bnPerimetro) {
                 when (data) {
                     0 -> {
-
+                        var intent = Intent(this, TriaguloPerimetroActivity::class.java)
+                        startActivity(intent)
                     }
                     1 -> {
-
+                        var intent = Intent(this,DiametroCuadradoActivity::class.java)
+                        startActivity(intent)
                     }
                     2 -> {
 
@@ -56,10 +61,12 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     4 -> {
-
+                        var intent = Intent(this,perRomboActivity::class.java)
+                        startActivity(intent)
                     }
                     5 -> {
-
+                        var intent = Intent(this, PerPentaActivity::class.java)
+                        startActivity(intent)
                     }
                     6 -> {
 
