@@ -14,6 +14,18 @@
             android:label="@string/arearombo">
 
         </activity>
+        <activity android:name=".SelAreaPerActivity"
+                  android:label="@string/seleccion">
+        </activity>
+        <activity android:name=".setcircleperimeterActivity"
+                  android:label="@string/section">
+        </activity>
+        <activity android:name=".DiametroCuadradoActivity"
+                  android:label="@string/diametro">
+        </activity>
+        <activity android:name=".TriaguloPerimetroActivity" android:label="@string/perimetrotrian">
+
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
