@@ -23,4 +23,10 @@
     <string name="area">Area</string>
     <string name="perimetro">Perimetro</string>
     <string name="seleccion">Selección</string>
+    <string name="tria_per">Perímetro de un Triángulo</string>
+    <string name="lado1tp">Lado 1</string>
+    <string name="lado2tp">Lado 2</string>
+    <string name="lado3tp">Lado 3</string>
+    <string name="calculartriper">Calcular</string>
+    <string name="perimetrotrian">Perimetro Triangulo</string>
 </resources>
