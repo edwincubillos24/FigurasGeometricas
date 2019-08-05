@@ -3,8 +3,8 @@ package com.cubidevs.figurasgeometricas
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.EditText
 import android.widget.TextView
+import android.widget.EditText as EditText1
 
 class PerRectanguloActivity : AppCompatActivity() {
 
@@ -19,8 +19,8 @@ class PerRectanguloActivity : AppCompatActivity() {
         var ladob = "0.0"
 
 
-        val etladoa= findViewById<EditText>(R.id.etladoa)
-        val etladob= findViewById<EditText>(R.id.etladob)
+        val etladoa= findViewById(R.id.etladoa) as android.widget.EditText
+        val etladob= findViewById(R.id.etladob)as android.widget.EditText
         val tvresultado= findViewById<TextView>(R.id.tvresultado)
         val btcalcular = findViewById<Button>(R.id.btcalcular)
 
@@ -30,7 +30,6 @@ class PerRectanguloActivity : AppCompatActivity() {
 
             if ((ladoa == "") || (ladob == "")){
                 tvresultado.text="No se ingresaron datos "
-
             }
             else{
             resultado = ladoa.toDouble() + ladoa.toDouble() + ladob.toDouble() + ladob.toDouble()
