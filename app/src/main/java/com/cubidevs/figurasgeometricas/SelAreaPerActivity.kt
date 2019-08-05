@@ -1,5 +1,6 @@
 package com.cubidevs.figurasgeometricas
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -22,7 +23,8 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     1 -> {
-
+                        var intent = Intent(this, Area_cuadradoActivity::class.java)
+                        startActivity(intent)
                     }
                     2 -> {
 
