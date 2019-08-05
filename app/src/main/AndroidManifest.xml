@@ -12,6 +12,9 @@
         <activity android:name=".SelAreaPerActivity"
                   android:label="@string/seleccion">
         </activity>
+        <activity android:name=".setcircleperimeterActivity"
+                  android:label="@string/section">
+        </activity>
         <activity android:name=".DiametroCuadradoActivity"
                   android:label="@string/diametro">
         </activity>
