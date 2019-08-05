@@ -64,7 +64,8 @@ class SelAreaPerActivity : AppCompatActivity() {
 
                     }
                     5 -> {
-
+                        var intent = Intent(this, PerPentaActivity::class.java)
+                        startActivity(intent)
                     }
                     6 -> {
 

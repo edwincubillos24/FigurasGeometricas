@@ -23,6 +23,10 @@
         <activity android:name=".DiametroCuadradoActivity"
                   android:label="@string/diametro">
         </activity>
+        <activity android:name=".PerPentaActivity"
+        android:label="@string/PerimetroPentagono">
+
+        </activity>
         <activity android:name=".TriaguloPerimetroActivity" android:label="@string/perimetrotrian">
 
         </activity>

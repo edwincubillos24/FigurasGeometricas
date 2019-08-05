@@ -28,4 +28,8 @@
     <string name="ingresevalor">Ingrese el valor del LADO del cuadrado (cm)</string>
     <string name="calcular">Calcular</string>
     <string name="areacuadrado">Area Cuadrado</string>
+    <string name="PerPenIngrese">Ingrese la longitud</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="tvResultado">Resultado</string>
+    <string name="PerimetroPentagono">PerimetroPoligono</string>
 </resources>
