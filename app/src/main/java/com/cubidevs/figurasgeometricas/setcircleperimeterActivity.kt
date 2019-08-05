@@ -8,7 +8,9 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_setcircleperimeter.*
 
 class setcircleperimeterActivity : AppCompatActivity() {
+
     var inradio = 0.0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_setcircleperimeter)
@@ -21,8 +23,7 @@ class setcircleperimeterActivity : AppCompatActivity() {
                 resulperimeter.text = perimeter.toString()
             }else{
             Toast.makeText(this,"Input a valid number", Toast.LENGTH_LONG).show()
-            }
-
+                }
         }
     }
 
