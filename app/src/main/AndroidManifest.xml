@@ -9,6 +9,8 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".perRomboActivity"
+                  android:label="@string/perimRombo"/>
         <activity android:name=".arearomboActivity"
 
             android:label="@string/arearombo">
@@ -42,6 +44,7 @@
             </intent-filter>
 
         </activity>
+
     </application>
 
 </manifest>
