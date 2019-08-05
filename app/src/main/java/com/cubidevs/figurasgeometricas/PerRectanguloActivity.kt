@@ -3,8 +3,13 @@ package com.cubidevs.figurasgeometricas
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+
+import android.widget.TextView
+import android.widget.EditText as EditText1
+
 import android.widget.EditText
 import android.widget.TextView
+
 
 class PerRectanguloActivity : AppCompatActivity() {
 
@@ -19,10 +24,19 @@ class PerRectanguloActivity : AppCompatActivity() {
         var ladob = "0.0"
 
 
+
+        val etladoa= findViewById(R.id.etladoa) as android.widget.EditText
+        val etladob= findViewById(R.id.etladob)as android.widget.EditText
+        val tvresultado= findViewById<TextView>(R.id.tvresultado)
+        val btcalcular = findViewById<Button>(R.id.btcalcular)
+
+
+
         val etladoa= findViewById<EditText>(R.id.etladoa)
         val etladob= findViewById<EditText>(R.id.etladob)
         val tvresultado= findViewById<TextView>(R.id.tvresultado)
         val btcalcular = findViewById<Button>(R.id.btcalcular)
+
 
         btcalcular.setOnClickListener {
             ladoa = etladoa.text.toString()
@@ -36,9 +50,11 @@ class PerRectanguloActivity : AppCompatActivity() {
             resultado = ladoa.toDouble() + ladoa.toDouble() + ladob.toDouble() + ladob.toDouble()
 
             tvresultado.text = resultado.toString()
+
             }
         }
     }
 
 
 }
+

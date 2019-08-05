@@ -9,16 +9,27 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+
+
+
+
+        <activity android:name=".PerRectanguloActivity"
+        android:label="@string/PerimetroRectangulo">
+</activity>
+
+
         <activity android:name=".areatriangulo">
         </activity>
         <activity
                 android:name=".PerRectanguloActivity"
                 android:label="@string/PerimetroRectangulo">
+</activity>
         <activity android:name=".perRomboActivity"
                   android:label="@string/perimRombo"/>
         <activity android:name=".arearomboActivity"
 
             android:label="@string/arearombo">
+
 
         </activity>
         <activity
