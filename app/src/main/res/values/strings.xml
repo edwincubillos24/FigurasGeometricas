@@ -34,4 +34,8 @@
     <string name="btnCalcular">Calcular</string>
     <string name="tvResultado">Resultado</string>
     <string name="PerimetroPentagono">PerimetroPoligono</string>
+    <string name="calcular_area_de_un_triangulo">calcular area de un triangulo</string>
+    <string name="ingrese_la_base">ingrese la base</string>
+    <string name="ingrese_la_altura">ingrese la altura</string>
+    <string name="resultado">resultado-</string>
 </resources>

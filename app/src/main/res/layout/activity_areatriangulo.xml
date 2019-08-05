@@ -8,7 +8,7 @@
         tools:context=".areatriangulo">
 
     <TextView
-            android:text="@string/calcule_el_area_de_un_triangulo"
+            android:text="@string/calcular_area_de_un_triangulo"
             android:textSize="20sp"
             android:textAlignment="center"
             android:layout_width="244dp"
