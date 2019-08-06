@@ -50,4 +50,9 @@
     <string name="ingrese_el_radio">Ingrese el radio</string>
     <string name="cm">cm</string>
     <string name="radio_nuevo">Radio:</string>
+    <string name="Calcular">Calcular:</string>
+    <string name="Ingrese">Ingrese medida de un lado del pentágono:</string>
+    <string name="Area">Area:</string>
+    <string name="IngreseA">Ingrese medida del apotema:</string>
+
 </resources>
