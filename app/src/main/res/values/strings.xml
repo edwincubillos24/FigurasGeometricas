@@ -29,4 +29,7 @@
     <string name="lado3tp">Lado 3</string>
     <string name="calculartriper">Calcular</string>
     <string name="perimetrotrian">Perimetro Triangulo</string>
+    <string name="dimen">Dimensiones:</string>
+    <string name="width">Ancho:</string>
+    <string name="large">Largo:</string>
 </resources>

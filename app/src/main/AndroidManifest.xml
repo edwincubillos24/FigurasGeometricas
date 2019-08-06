@@ -9,24 +9,27 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-
-
-        <activity android:name=".PerRectanguloActivity"
-        android:label="@string/PerimetroRectangulo">
-
-
+        <activity android:name=".AreaRectanguloActivity">
         </activity>
-        <activity android:name=".SelAreaPerActivity"
-                  android:label="@string/seleccion">
+        <activity
+                android:name=".PerRectanguloActivity"
+                android:label="@string/PerimetroRectangulo">
         </activity>
-        <activity android:name=".setcircleperimeterActivity"
-                  android:label="@string/section">
+        <activity
+                android:name=".SelAreaPerActivity"
+                android:label="@string/seleccion">
         </activity>
-        <activity android:name=".DiametroCuadradoActivity"
-                  android:label="@string/diametro">
+        <activity
+                android:name=".setcircleperimeterActivity"
+                android:label="@string/section">
         </activity>
-        <activity android:name=".TriaguloPerimetroActivity" android:label="@string/perimetrotrian">
-
+        <activity
+                android:name=".DiametroCuadradoActivity"
+                android:label="@string/diametro">
+        </activity>
+        <activity
+                android:name=".TriaguloPerimetroActivity"
+                android:label="@string/perimetrotrian">
         </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -34,7 +37,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-
         </activity>
     </application>
 
