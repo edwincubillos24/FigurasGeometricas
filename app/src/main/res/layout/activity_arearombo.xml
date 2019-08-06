@@ -16,7 +16,7 @@
     />
         <TextView android:layout_width="match_parent"
                   android:layout_height="wrap_content"
-                    android:id="@+id/tvd1"
+                    android:id="@+id/tvd3"
                     android:text="Ingrese la diagonal1 de su rombo"
                     android:textStyle="bold"
                     />

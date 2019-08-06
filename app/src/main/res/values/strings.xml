@@ -43,4 +43,8 @@
     <string name="ingrese_la_base">ingrese la base</string>
     <string name="ingrese_la_altura">ingrese la altura</string>
     <string name="arearombo">Area Rombo</string>
+    <string name="area_circulo">Area del circulo</string>
+    <string name="ingrese_el_radio">Ingrese el radio</string>
+    <string name="cm">cm</string>
+    <string name="radio_nuevo">Radio:</string>
 </resources>

@@ -8,44 +8,37 @@
             android:label="@string/app_name"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
-            android:theme="@style/AppTheme"
-            tools:ignore="GoogleAppIndexingWarning">
+            android:theme="@style/AppTheme">
 
-
-
-
-        <activity android:name=".PerRectanguloActivity"
-        android:label="@string/PerimetroRectangulo">
-</activity>
-
-
+        <activity android:name=".areacirculoActivity">
+        </activity>
+        
         <activity android:name=".areatriangulo">
         </activity>
 
-        <activity android:name=".perRomboActivity"
-                  android:label="@string/perimRombo"/>
         <activity android:name=".arearomboActivity"
                   android:label="@string/arearombo">
-
-
         </activity>
+
         <activity
                 android:name=".SelAreaPerActivity"
                 android:label="@string/seleccion">
         </activity>
+
         <activity
                 android:name=".setcircleperimeterActivity"
                 android:label="@string/section">
         </activity>
+
         <activity
                 android:name=".DiametroCuadradoActivity"
                 android:label="@string/diametro">
         </activity>
 
         <activity android:name=".PerPentaActivity"
-        android:label="@string/PerimetroPentagono">
-
+            android:label="@string/PerimetroPentagono">
         </activity>
+
         <activity
                 android:name=".TriaguloPerimetroActivity"
                 android:label="@string/perimetrotrian">
@@ -53,8 +46,8 @@
 
         <activity android:name=".Area_cuadradoActivity"
         android:label="@string/areacuadrado">
-
         </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
