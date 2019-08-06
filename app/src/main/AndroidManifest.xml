@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.cubidevs.figurasgeometricas">
+          xmlns:tools="http://schemas.android.com/tools" package="com.cubidevs.figurasgeometricas">
 
     <application
             android:allowBackup="true"
@@ -10,32 +10,55 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
 
+        <activity android:name=".areacirculoActivity">
+        </activity>
 
-        <activity android:name=".PerRectanguloActivity"
-        android:label="@string/PerimetroRectangulo">
+        <activity android:name=".areatriangulo">
+        </activity>
 
+        <activity android:name=".arearomboActivity"
+                  android:label="@string/arearombo">
+        </activity>
 
+        <activity android:name=".AreaRectanguloActivity">
         </activity>
-        <activity android:name=".SelAreaPerActivity"
-                  android:label="@string/seleccion">
-        </activity>
-        <activity android:name=".setcircleperimeterActivity"
-                  android:label="@string/section">
-        </activity>
-        <activity android:name=".DiametroCuadradoActivity"
-                  android:label="@string/diametro">
-        </activity>
-        <activity android:name=".TriaguloPerimetroActivity" android:label="@string/perimetrotrian">
 
+        <activity
+                android:name=".SelAreaPerActivity"
+                android:label="@string/seleccion">
         </activity>
+
+        <activity
+                android:name=".setcircleperimeterActivity"
+                android:label="@string/section">
+        </activity>
+
+        <activity
+                android:name=".DiametroCuadradoActivity"
+                android:label="@string/diametro">
+        </activity>
+
+        <activity
+                android:name=".TriaguloPerimetroActivity"
+                android:label="@string/perimetrotrian">
+        </activity>
+
+        <activity android:name=".PerPentaActivity"
+            android:label="@string/PerimetroPentagono">
+        </activity>
+
+        <activity android:name=".Area_cuadradoActivity"
+            android:label="@string/areacuadrado">
+        </activity>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-
         </activity>
+
     </application>
 
 </manifest>
