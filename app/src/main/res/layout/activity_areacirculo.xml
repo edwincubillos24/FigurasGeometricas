@@ -24,7 +24,7 @@
             <TextView android:layout_width="0dp"
                       android:layout_height="wrap_content"
                       android:layout_weight="0.9"
-                      android:text="@string/radio"
+                      android:text="@string/radio_nuevo"
                       android:layout_marginLeft="10dp"
                       android:gravity="left"/>
 
