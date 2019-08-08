@@ -73,7 +73,8 @@ class SelAreaPerActivity : AppCompatActivity() {
                         startActivity(intent)
                     }
                     4 -> {
-
+                        var intent = Intent(this,Permetro_RomboActivity::class.java)
+                        startActivity(intent)
                     }
                     5 -> {
                         var intent = Intent(this, PerPentaActivity::class.java)

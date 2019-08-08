@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "Perímetro del rombo"
+            android:id="@+id/tvTitulo"
+            android:layout_marginTop="50dp"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "Ingrese el lado del rombo"
+            android:id="@+id/tvTitulodos"
+            android:layout_marginTop="90dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            android:id="@+id/etLado"/>
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calcular"
+            android:id="@+id/btCalcular"
+            android:layout_marginTop="30dp"
+            android:textSize="20sp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint = "Resultado"
+            android:id="@+id/tvResultado"
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+</LinearLayout>
